@@ -5,16 +5,27 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "vitest --ui",
+    "coverage": "vitest run --coverage",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "element-plus": "^2.7.1",
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@testing-library/vue": "^8.0.3",
     "@vitejs/plugin-vue": "^5.0.4",
+    "@vitest/browser": "^1.5.2",
+    "@vitest/ui": "^1.5.2",
+    "@vue/test-utils": "2.4.0-alpha.2",
+    "happy-dom": "^14.7.1",
+    "jsdom": "^24.0.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
-    "vue-tsc": "^2.0.6"
+    "vitest": "^1.5.2",
+    "vue-tsc": "^2.0.6",
+    "webdriverio": "^8.36.1"
   }
 }

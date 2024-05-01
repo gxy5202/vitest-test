@@ -1,0 +1,51 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should work as expected 1`] = `
+"<!-- <talbe class="cf-table">
+        <tr v-for="item in data">{{ item }}</tr>
+    </talbe> -->
+<div class="el-table--fit el-table--enable-row-hover el-table--enable-row-transition el-table el-table--layout-fixed cf-table" data-prefix="el" role="cf-table">
+  <div class="el-table__inner-wrapper">
+    <div class="hidden-columns">{}</div>
+    <div class="el-table__header-wrapper">
+      <table class="el-table__header" border="0" cellpadding="0" cellspacing="0">
+        <colgroup></colgroup>
+        <thead class="">
+          <tr class=""></tr>
+        </thead>
+      </table>
+    </div>
+    <div class="el-table__body-wrapper">
+      <div class="el-scrollbar">
+        <div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default">
+          <div class="el-scrollbar__view" style="display: inline-block; vertical-align: middle;">
+            <table class="el-table__body" cellspacing="0" cellpadding="0" border="0" style="table-layout: fixed;">
+              <colgroup></colgroup>
+              <!--v-if-->
+              <tbody tabindex="-1">
+                <tr class="el-table__row"></tr>
+              </tbody>
+              <!--v-if-->
+            </table>
+            <!--v-if-->
+            <!--v-if-->
+          </div>
+        </div>
+        <transition-stub name="el-scrollbar-fade" appear="false" persisted="true" css="true">
+          <div class="el-scrollbar__bar is-horizontal" style="display: none;">
+            <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+          </div>
+        </transition-stub>
+        <transition-stub name="el-scrollbar-fade" appear="false" persisted="true" css="true">
+          <div class="el-scrollbar__bar is-vertical" style="display: none;">
+            <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+          </div>
+        </transition-stub>
+      </div>
+    </div>
+    <!--v-if-->
+    <!--v-if-->
+  </div>
+  <div class="el-table__column-resize-proxy" style="display: none;"></div>
+</div>"
+`;
